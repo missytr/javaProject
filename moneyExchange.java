@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+package PACKAGE_NAME;
+
+>>>>>>> dd2941e9cf353a7343e4fcd5b8bfff2068cd2cfd
 import java.util.Scanner;
 public class moneyExchange {
     public static void main(String[] args) {
