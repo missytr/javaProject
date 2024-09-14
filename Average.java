@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-=======
-package PACKAGE_NAME;
 
->>>>>>> dd2941e9cf353a7343e4fcd5b8bfff2068cd2cfd
 import java.util.Scanner;
 public class Average {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a,b,c,d,e;
+        int a, b, c, d, e;
         System.out.println("Tính trung bình năm số cần nhập");
         System.out.print("Vui lòng nhập số thứ nhất: ");
         a = sc.nextInt();
@@ -19,10 +15,6 @@ public class Average {
         d = sc.nextInt();
         System.out.print("Vui lòng nhập số thứ năm: ");
         e = sc.nextInt();
-        System.out.println("Trung bình của năm số nhập là: " + (float)(a+b+c+d+e)/5);
+        System.out.println("Trung bình của năm số nhập là: " + (float) (a + b + c + d + e) / 5);
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> dd2941e9cf353a7343e4fcd5b8bfff2068cd2cfd
