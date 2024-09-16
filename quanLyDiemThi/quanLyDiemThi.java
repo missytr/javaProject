@@ -66,6 +66,10 @@ public class quanLyDiemThi {
             diem = doiTuong_2;
         } else if (doiTuong == 3) {
             diem = doiTuong_3;
+        } else if (doiTuong == 0) {
+            return diem;
+        } else {
+            System.out.println("Đối tượng không hợp lệ hoặc để trống");
         }
         return diem;
     }
@@ -92,8 +96,7 @@ public class quanLyDiemThi {
             diem = khuVuc_C;
         } else if (Objects.equals(khuVuc, "X") || Objects.equals(khuVuc, "x") || khuVuc == null) {
             return diem;
-        }
-        else {
+        } else {
             System.out.println("Khu vực không hợp lệ hoặc để trống!");
         }
         return diem;
