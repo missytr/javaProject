@@ -16,7 +16,7 @@ public class thueThuNhap {
     final static float thueThuNhap_120_210 = 90 * thue_120_210;
     final static float thueThuNhap_210_384 = 174 * thue_210_384;
     final static float thueThuNhap_384_624 = 240 * thue_384_624;
-    final static float thueThuNhap_624_960 =336 * thue_624_960;
+    final static float thueThuNhap_624_960 = 336 * thue_624_960;
     
     public static String hoTen (Scanner scan) {
         String hoTen;
